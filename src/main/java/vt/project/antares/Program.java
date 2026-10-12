@@ -1,23 +1,36 @@
 package vt.project.antares;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class Program {
 
-    static void main() {
+    static void main(String[] args) {
 
-        List<String> list = Arrays.asList("1", "2", "trois");
-        List<String> result = list.stream()
-                .map(String::toLowerCase)
-                .toList();
 
-        System.out.println(result);
+        Voiture voiture = new Voiture("porsche", "red");
+        Voiture voiture2 = new Voiture("audi", "jaune");
 
-        list.add("x");
+        System.out.println(voiture);
+        System.out.println(voiture2);
 
-        System.out.println(result);
 
+
+    }
+
+    static class Voiture {
+        public Voiture(String brand, String color) {
+            this.brand = brand;
+            this.color = color;
+        }
+
+        //attributs
+        public String brand;
+        public String color;
+        //methodes
+
+
+        @Override
+        public String toString() {
+            return "couleur : " + this.color + " , marque : " + this.brand ;
+        }
     }
 
 }

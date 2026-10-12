@@ -446,7 +446,7 @@ void process(Optional<User> user)
 
 ---
 
-# 3.14 What is the difference between `List`, `Set` and `Map`?
+# 3.14 What is the difference between `List`, `Set` and `MapCourse`?
 
 ## List
 

@@ -2,7 +2,7 @@ Below is a **Java 25-focused reference**, including the modern `Sequenced*` inte
 
 # Java 25 Collections Framework — Complete Guide
 
-> A practical and conceptual guide to `Collection`, `List`, `Set`, `Map`, `Queue`, `Deque`, `Tree`, `Hash`, `Sequenced*`, `Navigable*`, concurrent collections, immutable collections, and the main Java 25 implementations.
+> A practical and conceptual guide to `Collection`, `List`, `Set`, `MapCourse`, `Queue`, `Deque`, `Tree`, `Hash`, `Sequenced*`, `Navigable*`, concurrent collections, immutable collections, and the main Java 25 implementations.
 
 ---
 
@@ -34,7 +34,7 @@ The most important interfaces are:
                   SequencedCollection ◄───────────┘
 ```
 
-`Map` is separate:
+`MapCourse` is separate:
 
 ```text
                             Map
@@ -603,9 +603,9 @@ NavigableSet
 
 ---
 
-# 14. `Map`
+# 14. `MapCourse`
 
-A `Map` stores:
+A `MapCourse` stores:
 
 ```text
 key → value
@@ -656,7 +656,7 @@ is valid.
 
 # 15. `HashMap`
 
-`HashMap` is the general-purpose `Map` implementation.
+`HashMap` is the general-purpose `MapCourse` implementation.
 
 ```java
 Map<String, User> users =
@@ -2796,7 +2796,7 @@ map.compute(
 );
 ```
 
-Modern `Map` APIs make many common update patterns much cleaner.
+Modern `MapCourse` APIs make many common update patterns much cleaner.
 
 ---
 

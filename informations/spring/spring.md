@@ -1,7 +1,5 @@
 ### Corrected English question
 
-> **In Markdown and English, do the same for this section. Go further and explain the concepts in depth, especially the Spring IoC container, bean lifecycle, Spring Data JPA, Hibernate, persistence context, dirty checking, N+1 queries, transactions, proxies, and Spring Security 6.**
-
 ````markdown
 # 4. Spring & Spring Boot Ecosystem
 
@@ -2430,9 +2428,4 @@ JDBC
  │
  ▼
 Database
-```
-
-If you understand this flow, most of the Spring Boot concepts stop being isolated annotations and become parts of one coherent system.
-
-```
 ```
